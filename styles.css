@@ -35,14 +35,14 @@ li {
 }
 
 #gallery {
-    padding: 0;
-    width: 570px;
-    margin: 1em auto 0 auto;   
-}
-/* img {
-    float: left;
+    width: 540px;
     margin: 1em auto 0 auto;
-} */
+}
+
+#gallery img {
+    display: block;
+    
+}
 
 #footer {
     clear: both;
