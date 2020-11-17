@@ -4,14 +4,26 @@ body {
     letter-spacing: 0.15em;
     background-color: #efefef;}
 
-#page {
+.flex-container {
+    display: flex;
+    flex-direction: column;
     max-width: 940px;
-    min-width: 720px;
     margin: 10px auto 10px auto;
     border: 4px double #000;
     padding: 20px;
     background-color: #ffffff;
+    }
+    
+@media (min-width: 700px) {
+    li {
+        display: block;
+    }
 }
+li {
+    display: inline;
+    text-transform: uppercase;
+    margin: 0px 3px; /* left and right - 0, top and bottom - 3px*/
+}    
 #logo {
     width: 75%;
     margin: 10px auto 20px auto;
@@ -20,7 +32,7 @@ body {
 }
 
 ul {
-    width: 570px;
+    width: 75%;
     padding: 15px;
     margin: 0px auto 0px auto;
     border-top: 2px solid #000;
@@ -28,26 +40,18 @@ ul {
     text-align: center;
 }
 
-li {
-    display: inline;
-    margin: 0px 3px; /* left and right - 0, top and bottom - 3px*/
-    text-transform: uppercase;
-}
-
-#gallery {
+img {
+    display: block;
     width: 540px;
     margin: 1em auto 0 auto;
-}
-
-#gallery img {
-    display: block;
-    
+    max-width: 100%;
+    height: auto;   
 }
 
 #footer {
     clear: both;
     text-align: center;
-    width: 600px;
+    width: 75%;
     margin: 20px auto 20px auto;
     font-weight: normal;
 }
