@@ -1,13 +1,13 @@
 body {
     font-size: .8em;
-    font-family: "Courier New", Courier, monospace;
+    font-family: Garamond, Courier, monospace;
     letter-spacing: 0.15em;
     background-color: #efefef;}
 
 .flex-container {
     display: flex;
     flex-direction: column;
-    max-width: 940px;
+    max-width: 1600px;
     margin: 10px auto 10px auto;
     border: 4px double #000;
     padding: 20px;
@@ -20,9 +20,11 @@ body {
     }
 }
 li {
-    display: inline;
+    display: inline-block;
     text-transform: uppercase;
-    margin: 0px 3px; /* left and right - 0, top and bottom - 3px*/
+    margin: .2em;
+    border: 1px solid black;
+    padding: .4em;
 }    
 #logo {
     width: 75%;
@@ -42,7 +44,7 @@ ul {
 
 img {
     display: block;
-    width: 540px;
+    width: 75%;
     margin: 1em auto 0 auto;
     max-width: 100%;
     height: auto;   
