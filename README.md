@@ -9,6 +9,7 @@ Added flex box styling to adjust the elements to changes in viewsizes.
 1. Fixed img size to better fit other elements
 2. List items to display: inline-block.
 3. Added scripts folder and the seeMore.js file to toggle the text length in the footer
+4. Added href styling to the navigation
 
 Backlog:
 
